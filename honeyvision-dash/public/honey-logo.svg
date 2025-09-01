@@ -1,0 +1,42 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  
+  <!-- Honeycomb Pattern -->
+  <g fill="#92400e" opacity="0.8">
+    <!-- Center hexagon -->
+    <polygon points="32,20 36,22 36,26 32,28 28,26 28,22"/>
+    <!-- Top hexagons -->
+    <polygon points="32,14 36,16 36,20 32,22 28,20 28,16"/>
+    <polygon points="24,20 28,22 28,26 24,28 20,26 20,22"/>
+    <polygon points="40,20 44,22 44,26 40,28 36,26 36,22"/>
+    <!-- Bottom hexagons -->
+    <polygon points="32,28 36,30 36,34 32,36 28,34 28,30"/>
+    <polygon points="24,28 28,30 28,34 24,36 20,34 20,30"/>
+    <polygon points="40,28 44,30 44,34 40,36 36,34 36,30"/>
+    <!-- Side hexagons -->
+    <polygon points="20,26 24,28 24,32 20,34 16,32 16,28"/>
+    <polygon points="44,26 48,28 48,32 44,34 40,32 40,28"/>
+  </g>
+  
+  <!-- Honey Drops -->
+  <g fill="#fbbf24">
+    <circle cx="32" cy="42" r="3"/>
+    <circle cx="28" cy="44" r="2"/>
+    <circle cx="36" cy="44" r="2"/>
+    <circle cx="30" cy="46" r="1.5"/>
+    <circle cx="34" cy="46" r="1.5"/>
+  </g>
+  
+  <!-- Security Shield -->
+  <g fill="#dc2626" opacity="0.9">
+    <path d="M32,8 L40,12 L40,20 C40,28 36,32 32,34 C28,32 24,28 24,20 L24,12 Z"/>
+    <path d="M32,12 L36,14 L36,20 C36,24 34,26 32,27 C30,26 28,24 28,20 L28,14 Z" fill="#fef3c7"/>
+  </g>
+  
+  <!-- Lock Icon -->
+  <g fill="#374151">
+    <rect x="30" y="16" width="4" height="6" rx="1"/>
+    <circle cx="32" cy="18" r="1" fill="#fef3c7"/>
+  </g>
+</svg>
